@@ -23,12 +23,18 @@ nav {
   padding: 4rem 8rem;
   display: flex;
   justify-content: space-between;
+  font-size: 1.5rem;
+}
+
+.pop {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
 
 nav a {
   text-decoration: none;
   color: white;
-  font-weight: bold;
 }
 
 nav ul {
@@ -51,6 +57,7 @@ nav ul {
 @media screen and (max-width: 960px) {
   nav {
     padding: 3rem 5rem;
+    font-size: 1rem;
   }
 
   .title {
