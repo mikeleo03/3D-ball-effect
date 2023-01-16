@@ -43,6 +43,31 @@ nav ul {
   position: absolute;
   font-size: 3rem;
   left: 50%;
-  top: 75%;
-  transform: translate(-50%, -75%);
+  top: 85%;
+  transform: translate(-50%, -85%);
+}
+
+/* Handling warna tulisan */
+@media screen and (max-width: 960px) {
+  nav {
+    padding: 3rem 5rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  nav {
+    padding: 3rem 3.5rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  nav ul {
+    gap: 1.5rem;
+  }
 }
